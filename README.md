@@ -12,7 +12,7 @@ npm install --save jenkins-ace-editor
 
 ```javascript
 var ace = require('jenkins-ace-editor');
-var editor = ace.edit('the-editor', 'groovy', 'eclipse');
+var editor = ace.edit('the-editor');
 ```
 
 See the [ACE Editor Docs](http://ace.c9.io/#nav=howto) for a full list of modes and themes.
