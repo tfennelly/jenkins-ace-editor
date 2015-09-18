@@ -1,0 +1,25 @@
+{
+  "name": "jenkins-ace-editor",
+  "version": "1.1.9-v1",
+  "description": "NPM wrapper for the ACE Editor (via Brace), allowing it to be used as an exported Jenkins module.",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Fennelly <tom.fennelly@gmail.com> (https://github.com/tfennelly)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tfennelly/jenkins-ace-editor"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jasmine": "^2.0.1",
+    "jenkins-js-test": "0.0.14",
+    "jquery-detached": "^2.1.4-v2",
+    "window-handle": "0.0.6"
+  },
+  "dependencies": {
+    "brace": "^0.5.1"
+  }
+}
